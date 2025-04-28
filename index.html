@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +20,43 @@
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">101Headshots</a>
+                <a href="https://bryanengel72.github.io/kearney-missouri-corporate-headshot-photography-services-2025-04-28-pkqua" class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">101Headshots</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-purple-400 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                    <a href="#about" class="hover:text-purple-400 transition-colors duration-300">About</a>
+                    <a href="#testimonials" class="hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="hover:text-purple-400 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="hover:text-purple-400 transition-colors duration-300">Contact</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
                 <a href="https://www.101headshots.com" class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Book Now</a>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 hover:text-purple-400 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                <a href="#about" class="block py-2 hover:text-purple-400 transition-colors duration-300">About</a>
+                <a href="#testimonials" class="block py-2 hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="block py-2 hover:text-purple-400 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 hover:text-purple-400 transition-colors duration-300">Contact</a>
+                <a href="https://www.101headshots.com" class="block mt-4 px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-center hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300">Book Now</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center pt-20">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 opacity-50"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 opacity-90"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Kearney, Missouri Corporate Headshot Photography Services</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-8">Polished photos that give Kearney leaders a competitive edge.</p>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Elevate Your Professional Image with Premium Corporate Headshots</h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-8">Transform your professional presence with our expert corporate headshot photography services in Kearney, Missouri. Stand out with portraits that capture your authentic leadership style.</p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a href="https://www.101headshots.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-center hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Schedule Your Session</a>
-                        <a href="#features" class="inline-block px-8 py-4 border border-purple-500 rounded-full text-center hover:bg-purple-500/10 transition-all duration-300">Learn More</a>
+                        <a href="#features" class="inline-block px-8 py-4 border border-purple-500 rounded-full text-center hover:bg-purple-500/10 transition-all duration-300 transform hover:scale-105">Explore Our Services</a>
                     </div>
                 </div>
             </div>
@@ -45,47 +69,103 @@
                     <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:scale-105">
                         <i class="fas fa-camera text-4xl text-purple-400 mb-4"></i>
                         <h3 class="text-xl font-bold mb-4">Professional Polish</h3>
-                        <p class="text-gray-400">Expert retouching and enhancement to ensure you look your absolute best while maintaining natural authenticity.</p>
+                        <p class="text-gray-400">Experience our signature retouching process that enhances your natural features while maintaining authenticity. Perfect for LinkedIn profiles and company websites.</p>
                     </div>
                     <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:scale-105">
                         <i class="fas fa-user-tie text-4xl text-purple-400 mb-4"></i>
-                        <h3 class="text-xl font-bold mb-4">Business Stance</h3>
-                        <p class="text-gray-400">Perfect positioning and poses that convey professionalism and leadership presence.</p>
+                        <h3 class="text-xl font-bold mb-4">Executive Presence</h3>
+                        <p class="text-gray-400">Master the art of professional positioning with our expert guidance. We'll help you strike the perfect balance between approachability and authority.</p>
                     </div>
                     <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:scale-105">
                         <i class="fas fa-image text-4xl text-purple-400 mb-4"></i>
-                        <h3 class="text-xl font-bold mb-4">Lead Image</h3>
-                        <p class="text-gray-400">Capture the perfect headshot that positions you as an industry leader and trusted professional.</p>
+                        <h3 class="text-xl font-bold mb-4">Modern Lighting</h3>
+                        <p class="text-gray-400">State-of-the-art lighting techniques ensure your features are perfectly highlighted, creating depth and dimension that makes you stand out.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="benefits" class="py-24 relative overflow-hidden">
-            <div class="absolute inset-0 bg-purple-900/10"></div>
-            <div class="container mx-auto px-6 relative">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Why Choose Us</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    <div class="flex flex-col items-start">
-                        <div class="bg-purple-500/20 p-4 rounded-lg mb-4">
-                            <i class="fas fa-star text-2xl text-purple-400"></i>
+        <section id="about" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">About Us</h2>
+                <div class="max-w-3xl mx-auto space-y-6 text-gray-300">
+                    <p class="text-lg leading-relaxed">Founded in 2015, 101Headshots emerged from a passion for capturing the essence of professional identity through photography. What began as a small studio in Kearney has grown into the region's premier destination for corporate photography, serving hundreds of business leaders and professionals annually.</p>
+                    <p class="text-lg leading-relaxed">Our mission is to empower professionals with images that reflect their true potential. We believe in creating an environment where authenticity meets excellence, delivering headshots that not only meet the highest technical standards but also capture the unique personality and professional presence of each client.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Client Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-bold mb-2">Professional Finish</h3>
-                        <p class="text-gray-400">High-end retouching that maintains your natural look while presenting you at your very best.</p>
+                        <p class="text-gray-300 mb-4">"The team at 101Headshots transformed my professional image. The attention to detail and guidance during the shoot was exceptional. My LinkedIn engagement increased by 40% after updating my profile with these photos."</p>
+                        <div class="text-purple-400 font-semibold">Sarah Martinez</div>
+                        <div class="text-gray-400 text-sm">CEO, TechVision Solutions</div>
                     </div>
-                    <div class="flex flex-col items-start">
-                        <div class="bg-purple-500/20 p-4 rounded-lg mb-4">
-                            <i class="fas fa-chart-line text-2xl text-purple-400"></i>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-bold mb-2">Market Stance</h3>
-                        <p class="text-gray-400">Stand out in your industry with images that convey authority and approachability.</p>
+                        <p class="text-gray-300 mb-4">"Best investment in my personal brand. The photos perfectly balance professionalism with approachability. Clients frequently mention how my headshot caught their attention."</p>
+                        <div class="text-purple-400 font-semibold">Michael Chen</div>
+                        <div class="text-gray-400 text-sm">Financial Advisor, Wealth Dynamics</div>
                     </div>
-                    <div class="flex flex-col items-start">
-                        <div class="bg-purple-500/20 p-4 rounded-lg mb-4">
-                            <i class="fas fa-trophy text-2xl text-purple-400"></i>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
                         </div>
-                        <h3 class="text-xl font-bold mb-2">Lead Image</h3>
-                        <p class="text-gray-400">Get the perfect shot that helps you win more business and advance your career.</p>
+                        <p class="text-gray-300 mb-4">"The entire experience was fantastic. From choosing the right outfit to the final retouched images, every detail was handled professionally. These photos have become a crucial part of my personal marketing strategy."</p>
+                        <div class="text-purple-400 font-semibold">Rachel Thompson</div>
+                        <div class="text-gray-400 text-sm">Marketing Director, Global Innovations</div>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Outstanding service and results. The team made me feel comfortable throughout the session, and the final images exceeded my expectations. Worth every penny."</p>
+                        <div class="text-purple-400 font-semibold">David Wilson</div>
+                        <div class="text-gray-400 text-sm">Managing Partner, Legal Solutions</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What should I wear to my headshot session?</h3>
+                        <p class="text-gray-300">We recommend solid colors and professional attire that reflects your industry. Avoid busy patterns and bright colors. We'll provide detailed guidelines upon booking.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-3">How long does a session take?</h3>
+                        <p class="text-gray-300">Standard sessions last 30-45 minutes, allowing time for multiple poses and outfits. We ensure you're comfortable and confident throughout the process.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-3">When will I receive my photos?</h3>
+                        <p class="text-gray-300">You'll receive your professionally retouched photos within 3-5 business days. Rush delivery is available for an additional fee.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Do you provide hair and makeup services?</h3>
+                        <p class="text-gray-300">Yes, we partner with professional stylists and can arrange hair and makeup services for an additional fee. Please request this service when booking.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What is your rescheduling policy?</h3>
+                        <p class="text-gray-300">We understand that plans change. You can reschedule up to 48 hours before your session at no additional cost. Last-minute changes may incur a fee.</p>
                     </div>
                 </div>
             </div>
@@ -93,11 +173,11 @@
 
         <section id="contact" class="py-24 bg-gradient-to-br from-purple-900 to-gray-900">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Elevate Your Professional Image?</h2>
-                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Book your session today and get the professional headshots you deserve.</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Professional Image?</h2>
+                <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Book your session today and join the hundreds of professionals who have elevated their presence with our premium headshot services.</p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
                     <a href="https://www.101headshots.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-center hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Book Your Session</a>
-                    <a href="mailto:bryan@101headshots.com" class="inline-block px-8 py-4 border border-purple-500 rounded-full text-center hover:bg-purple-500/10 transition-all duration-300">Contact Us</a>
+                    <a href="mailto:bryan@101headshots.com" class="inline-block px-8 py-4 border border-purple-500 rounded-full text-center hover:bg-purple-500/10 transition-all duration-300 transform hover:scale-105">Contact Us</a>
                 </div>
             </div>
         </section>
@@ -119,14 +199,18 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">FAQ</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://bryanengel72.github.io/kearney-missouri-corporate-headshot-photography-services-2025-04-28-pkqua/privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://bryanengel72.github.io/kearney-missouri-corporate-headshot-photography-services-2025-04-28-pkqua/terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://bryanengel72.github.io/kearney-missouri-corporate-headshot-photography-services-2025-04-28-pkqua/blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -135,5 +219,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
